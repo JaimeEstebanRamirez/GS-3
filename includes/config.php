@@ -6,14 +6,14 @@ session_start();
 date_default_timezone_set('Europe/London');
 
 //database credentials
-define('DBHOST','localhost');
-define('DBUSER','database username');
-define('DBPASS','password');
-define('DBNAME','database name');
+define('DBHOST','webappgroupswitzerland-mysqldbserver.mysql.database.azure.com');
+define('DBUSER','mysqldbuser@webappgroupswitzerland-mysqldbserver');
+define('DBPASS','@Italy2018');
+define('DBNAME','GSDB3');
 
 //application address
-define('DIR','http://domain.com/');
-define('SITEEMAIL','noreply@domain.com');
+define('DIR','https://gswebapp-3.azurewebsites.net');
+define('SITEEMAIL','noreply.groupswitzerland@gmail.com');
 
 try {
 
